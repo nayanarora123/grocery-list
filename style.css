@@ -1,0 +1,91 @@
+  *{
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('linedpaper/linedpaper.png');
+    padding: 0;
+    font-family: cursive;
+    letter-spacing: 1px;
+  }
+
+  label {
+    color: #2d9ce7;
+    font-size: 22px;
+  }
+
+  input[type="text"] {
+    background-color: #f8f8f8;
+  }
+
+  #need {
+    background-color: #f8f8f8;
+    color: #3498db;
+  }
+
+  #have {
+    background-color: #f8f8f8;
+    color: #3498db; 
+  }
+
+  .grocery-head{
+    text-align: center;
+    padding: 25px 15% 0 15%;
+  }
+
+  h1 {
+    margin-top: 0;
+    color: #4183D7;
+    font-size: 50px;
+  }
+
+  h2 {
+    color: #4183D7;
+    font-size: 42px;
+    /* text-align: left; */
+  }
+
+  .grocery-body {
+    padding: 80px 15% 0 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  ul {
+    color: #555;
+    font-size: 22px;
+    
+    padding: 0 !important;
+    width: 450px;
+    border: 1px solid #000000;
+  }
+
+  ul li {
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #3498db;
+  }
+
+  /* .input:checked{
+    background-color: black;
+  } */
+
+  .emo {
+    float: right;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+  }
+
+  .head {
+    text-align: center;
+    color: #4183D7;
+  }
+

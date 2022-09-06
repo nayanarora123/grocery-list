@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Shopping List</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+	<script type="text/javascript" src="script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/3422ccb1eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="grocery-head">
+	<h1>Shopping List</h1>
+	<label>Add Item: </label>
+	<input data-screen type="text" name="item">
+	<button id="need">Need</button>
+	<button id="have">Have</button>
+</div>
+
+<div class="grocery-body">
+
+	<div class="needlist">
+	    <h2>Need:</h2>
+		<ul data-need>
+			<li class="head">Add Your Items</li>
+		</ul>	
+	</div>
+
+	<div class="havelist">
+	<h2>Have:</h2>
+		<ul data-have>
+			<li class="head">Add Your Items</li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
